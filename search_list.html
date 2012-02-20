@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>浙江省商务厅</title>
+<link rel="stylesheet" href="style/yui_css_reset.css" />
+<link rel="stylesheet" href="style/layout.css" />
+<script type="text/javascript" src="script/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="script/ddsmoothmenu.js"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+<script type="text/javascript" src="script/head_search.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="head">
+    <div class="head_top">
+      <div class="head_top_f">
+        <ul>
+          <li class="dingy"><a href="#"><span></span>订阅</a></li>
+          <li class="favorite"><a href="javascript:save('加入收藏夹','http://www.zcom.gov.cn')"><span></span>收藏夹</a></li>
+        </ul>
+      </div>
+      <div class="head_top_search">
+        <input class="head_input" type="text" id="search" onblur="contentOnblur();" onfocus="contentOnFocus();" value="请输入要搜索的关键字" style="color:#bcdbde;" />
+        <a class="search_button" href="#"><img src="images/search.jpg" /></a><a class="vip_search" href="#">高级搜索</a> </div>
+      <!--<div class="head_top_color">
+        <ul>
+          <li><a href="#"><img src="images/c_1.jpg" /></a></li>
+          <li><a href="#"><img src="images/c_2.jpg" /></a></li>
+          <li><a href="#"><img src="images/c_3.jpg" /></a></li>
+          <li><a href="#"><img src="images/c_4.jpg" /></a></li>
+          <li><a href="#"><img src="images/c_5.jpg" /></a></li>
+          <li><a href="#"><img src="images/c_6.jpg" /></a></li>
+        </ul>
+      </div>-->
+      <!--<div class="head_top_language">
+        <div class="lan_left"></div>
+        <div class="lan_middle"><a href="#">中文</a> | <a href="#">English</a> | <a href="#">日文</a></div>
+        <div class="lan_right"></div>
+      </div>-->
+      <div class="hnjb">
+        <div class="hnjb_left"></div>
+        <div class="hnjb_middle"><a href="http://www2.zftec.gov.cn/main">怀念旧版</a></div>
+        <div class="hnjb_right"></div>
+      </div>
+    </div>
+    <div class="banner">
+      <embed width="950" height="150" wmode="opaque" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" quality="high" src="flash/f.swf" style="position:absolute;z-index:0;"></embed>
+      <!--这个层在flash之上并且透明-->
+      <div style="background:#fff;filter:alpha(opacity=0);opacity:0;position:relative;z-index:1;height:150px;"> <a href="http://www.zftec.gov.cn" style="display:block; width:950px; height:150px; cursor:pointer;"></a> </div>
+    </div>
+    <div id="smoothmenu1" class="ddsmoothmenu">
+      <ul>
+        <li><a class="first_menu" href="/zcom/">首 页</a></li>
+        <li><a class="first_menu" href="/zcom/zwfb/zwdt/">政务发布</a>
+          <ul class="child_menu">
+            <li><a href="/zcom/zwfb/ldzc/">领导致辞</a></li>
+            <li><a href="/zcom/zwfb/jgjs/">机构介绍</a></li>
+            <li><a href="/zcom/zwfb/zwdt/">政务动态</a></li>
+            <li><a href="/zcom/zwfb/tjsj/">统计数据</a></li>
+            <li><a href="/zcom/zwfb/zcfg/">政策法规</a></li>
+            <li><a href="/zcom/zwfb/zcqgh/">中长期规划</a></li>
+            <li><a href="/zcom/zwfb/wjtz/">文件通知</a></li>
+            <li><a href="/zcom/zwfb/rsrm/">人事任免</a></li>
+            <!-- <li><a href="#">经济运行</a></li> -->
+          </ul>
+        </li>
+        <li><a class="first_menu" href="#">国际贸易</a>
+          <ul class="child_menu">
+            <li><a href="/zcom/gjmy/hwmy/">货物贸易</a></li>
+            <li><a href="/zcom/gjmy/jdcp/">机电产品</a></li>
+            <li><a href="/zcom/gjmy/fwmy/">服务贸易</a></li>
+            <li><a href="/zcom/gjmy/myjj/">贸易救济</a></li>
+          </ul>
+        </li>
+        <li><a class="first_menu" href="/zcom/gjtz/">国际投资</a>
+          <ul class="child_menu">
+            <li><a href="/zcom/gjtz/wstz/tzzn/">投资指南</a></li>
+            <li><a href="/zcom/gjtz/wstz/tzhj/">投资环境</a></li>
+            <li><a href="/zcom/gjtz/wstz/zsxm/">招商项目</a></li>
+            <li><a href="/zcom/gjtz/wstz/tzdt/">投资动态</a></li>
+            <li><a href="/zcom/gjtz/kfq/">开发区</a></li>
+          </ul>
+        </li>
+        <li><a class="first_menu" href="/zcom/gjhz/">国际合作</a>
+          <ul class="child_menu">
+            <li><a href="/zcom/gjhz/gccb/">对外工程承包</a></li>
+            <li><a href="/zcom/gjhz/wplw/">外派劳务</a></li>
+            <li><a href="/zcom/gjhz/jwjy/">境外就业</a></li>
+            <li><a href="/zcom/gjhz/jwhzyq/">境外合作园区</a></li>
+            <li><a href="/zcom/gjhz/jwtz/">境外投资</a></li>
+            <li><a href="/zcom/gjhz/dwyz/">对外援助</a></li>
+            <li><a href="/zcom/gjhz/dsbjmhz/">多双边经贸合作</a></li>
+            <li><a href="/zcom/gjhz/zxzx/">最新资讯</a></li>
+          </ul>
+        </li>
+        <li><a class="first_menu" href="/zcom/smlt/">商贸流通</a>
+          <ul class="child_menu">
+            <li><a href="/zcom/smlt/sygg/">商业改革</a></li>
+            <li><a href="/zcom/smlt/sczd/">市场整顿</a></li>
+            <li><a href="/zcom/smlt/sctj/">市场调节</a></li>
+            <li><a href="/zcom/smlt/nmgl/">内贸管理</a></li>
+            <li><a target="_blank" href="http://zhejiang.acs.gov.cn">产业安全</a></li>
+          </ul>
+        </li>
+        <li><a class="first_menu" href="/zcom/bsdt/">办事大厅</a></li>
+        <li><a class="first_menu" href="/zcom/zmhd/">政务互动</a>
+          <ul class="child_menu">
+            <li><a href="/portal/zwhd/xxzxlist.jsp?id=4003">厅长信箱</a></li>
+            <li><a href="/portal/zwhd/xxzxlist.jsp?id=4005">公众留言</a></li>
+            <li><a href="/portal/zwhd/xxzxlist.jsp?id=4004">业务咨询</a></li>
+            <li><a href="/portal/zwhd/xxzxlist.jsp?id=4006">网上投诉</a></li>
+            <!-- <li><a href="#">外贸在线</a></li>
+            <li><a href="#">国际商务通</a></li> -->
+            <li><a href="#">网上调查</a></li>
+            <li><a href="#">民意征集</a></li>
+          </ul>
+        </li>
+        <li><a class="first_menu" href="/zcom/wzdt.html">网站地图</a></li>
+      </ul>
+      <br style="clear:left" />
+    </div>
+  </div>
+  <div class="jgzn_right">
+    <table cellspacing="0" cellpadding="0" border="0" align="center" width="900" style="margin-left:10px;*margin-left:10px !important;*margin-left:6px;">
+      <tbody>
+        <tr>
+          <td height="30" bgcolor="#e3e9e7" width="8"></td>
+          <td bgcolor="#e3e9e7" width="100%"><table cellspacing="0" cellpadding="0" border="0" width="900">
+              <tbody>
+                <tr>
+                  <form onsubmit="go(this);return false" name="showform"/>
+                  <td width="30%" valign="middle"><input type="text" value="d" name="q" style="width:180px; margin-left:50px;"/>
+                  </td>
+                  <td width="17%"><img height="22" width="41" onclick="go(showform)" style="" src="/img/zftec-home_34.gif"/> </td>
+                  <td width="5%" valign="middle"><input type="hidden" value="1" name="scope"/>
+                    <input type="radio" onclick="this.form.scope.value='1'" checked="" name="radiobutton"/>
+                  </td>
+                  <td width="10%" valign="middle" class="unnamed1">模糊搜索</td>
+                  <td width="4%" valign="middle"><input type="radio" onclick="this.form.scope.value='2'" name="radiobutton"/>
+                  </td>
+                  <td width="34%" valign="middle" class="unnamed1">在结果中再搜索</td>
+                </tr>
+              </tbody>
+            </table></td>
+          <td bgcolor="#e3e9e7" width="10"></td>
+        </tr>
+      </tbody>
+    </table>
+    <table cellspacing="0" cellpadding="0" border="0" width="900" style="margin-left:10px;*margin-left:10px !important;*margin-left:6px;">
+      <tbody>
+        <tr>
+          <td height="25" bgcolor="#f0f0f0" align="center" class="unnamed1">本次检索为您找到 1117 篇有关的页面, 搜索用时 0.011 秒.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table cellspacing="0" cellpadding="0" border="0" width="900">
+      <tbody>
+        <tr>
+          <td height="24" align="center"><span class="style4">页码： <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=1">首页</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=1"><font color="#ff0000">[1]</font></a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=2">2</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=3">3</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=4">4</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=5">5</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=6">6</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=7">7</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=8">8</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=9">9</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=10">10</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=2">下一页</a> <a class="navigate" href="/search?rows=10&amp;mid=article&amp;pop=10&amp;fq=&amp;q=d&amp;page=112">尾页</a>
+            <script language="javascript">function goToPage(page){ window.location.href="/search?rows=10&mid=article&pop=10&fq=&q=d&page=" + page; }</script>
+            到第
+            <select onchange="goToPage(this.options[this.selectedIndex].value);" name="page">
+              <option selected="" value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36">36</option>
+              <option value="37">37</option>
+              <option value="38">38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+              <option value="41">41</option>
+              <option value="42">42</option>
+              <option value="43">43</option>
+              <option value="44">44</option>
+              <option value="45">45</option>
+              <option value="46">46</option>
+              <option value="47">47</option>
+              <option value="48">48</option>
+              <option value="49">49</option>
+              <option value="50">50</option>
+              <option value="51">51</option>
+              <option value="52">52</option>
+              <option value="53">53</option>
+              <option value="54">54</option>
+              <option value="55">55</option>
+              <option value="56">56</option>
+              <option value="57">57</option>
+              <option value="58">58</option>
+              <option value="59">59</option>
+              <option value="60">60</option>
+              <option value="61">61</option>
+              <option value="62">62</option>
+              <option value="63">63</option>
+              <option value="64">64</option>
+              <option value="65">65</option>
+              <option value="66">66</option>
+              <option value="67">67</option>
+              <option value="68">68</option>
+              <option value="69">69</option>
+              <option value="70">70</option>
+              <option value="71">71</option>
+              <option value="72">72</option>
+              <option value="73">73</option>
+              <option value="74">74</option>
+              <option value="75">75</option>
+              <option value="76">76</option>
+              <option value="77">77</option>
+              <option value="78">78</option>
+              <option value="79">79</option>
+              <option value="80">80</option>
+              <option value="81">81</option>
+              <option value="82">82</option>
+              <option value="83">83</option>
+              <option value="84">84</option>
+              <option value="85">85</option>
+              <option value="86">86</option>
+              <option value="87">87</option>
+              <option value="88">88</option>
+              <option value="89">89</option>
+              <option value="90">90</option>
+              <option value="91">91</option>
+              <option value="92">92</option>
+              <option value="93">93</option>
+              <option value="94">94</option>
+              <option value="95">95</option>
+              <option value="96">96</option>
+              <option value="97">97</option>
+              <option value="98">98</option>
+              <option value="99">99</option>
+              <option value="100">100</option>
+              <option value="101">101</option>
+              <option value="102">102</option>
+              <option value="103">103</option>
+              <option value="104">104</option>
+              <option value="105">105</option>
+              <option value="106">106</option>
+              <option value="107">107</option>
+              <option value="108">108</option>
+              <option value="109">109</option>
+              <option value="110">110</option>
+              <option value="111">111</option>
+              <option value="112">112</option>
+            </select>
+            页</span> </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="search_list_content">
+      <ul>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购：农业机械设备 电 话：234-...Chamber of Commerce and Industry) Add. 1, Idowu Taylor Street, Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心 </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购： </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购：农业机械设备 电 话：234-...Chamber of Commerce and Industry) Add. 1, Idowu Taylor Street, Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心 </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购： </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购：农业机械设备 电 话：234-...Chamber of Commerce and Industry) Add. 1, Idowu Taylor Street, Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心 </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购： </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统全省外经贸战线荣誉全国商务系统</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购：农业机械设备 电 话：234-...Chamber of Commerce and Industry) Add. 1, Idowu Taylor Street, Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心Victoria Island, P.O.Box 109, Lagos ...DG; 尼日利亚世界贸易中心 </span></li>
+        <li class="search_title"><a href="#">全省外经贸战线荣誉全国商务系统全省</a></li>
+        <li class="search_content"><span>尼商名称：Asan Angur Ltd 求 购： </span></li>
+      </ul>
+    </div>
+  </div>
+    <div style="float:left; width:900px; font-size:12px;">
+  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tbody>
+      <tr>
+        <td height="24" align="center"><span class="style4" style="font-size:12px;">页码： <a href="/search?rows=10&mid=article&pop=10&fq=&q=123&page=1" class='navigate'><font color="#FF0000">[1]</font></a>&nbsp;<a href="/search?rows=10&mid=article&pop=10&fq=&q=123&page=2" class='navigate'>2</a>&nbsp;<a href="/search?rows=10&mid=article&pop=10&fq=&q=123&page=2" class='navigate'>下一页</a>&nbsp;
+&nbsp;<script language="javascript">function goToPage(page){ window.location.href="/search?rows=10&mid=article&pop=10&fq=&q=123&page=" + page; }</script>
+           
+          到第
+         <select name="page" onchange="goToPage(this.options[this.selectedIndex].value);">
+                                        <option value="1" selected>1</option>
+<option value="2">2</option>
+
+                                      </select>
+      页
+      
+                                </span> </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="footer" style="font-size:12px;">
+    <ul>
+      <li><a target="_blank" href="/zcom/wzdt.html">网站地图</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://ditu.google.cn">世界地图</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.worldweather.cn/">世界天气</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.hao123.com/haoserver/wotime.htm">世界时钟</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="/zcom/gjdh.html">国家代号</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="/zcom/sjgghy.html">各国黄页</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://www.123cha.com/hl/">货币汇率</a></li>
+      <li>|</li>
+      <li><a target="_blank" href="http://flights.ctrip.com/Domestic/SearchFlights.aspx">航班查询</a></li>
+    </ul>
+    <div class="copyright">
+      <p>COPYRIGHT (C) 2009 浙江省商务厅 版权所有 不得转载或设立镜像</p>
+      <p>浙 ICP 备 020007 欢迎提供宝贵意见 中国·浙江 杭州市延安路468号（310006）</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

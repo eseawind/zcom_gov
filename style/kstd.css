@@ -1,0 +1,7 @@
+.kstd{width:502px; float:left; margin-top:3px;}
+.kstd_a{background:url(../images/kstd_a.gif) no-repeat; width:502px; height:28px;}
+.kstd_a span{font-size:14px; color:#37669c; font-weight:bold; text-indent:35px; float:left; line-height:28px; background:url(../images/kstd_d.gif) 12px 6px no-repeat;}
+.kstd_b{background:url(../images/kstd_b.gif) repeat-y; width:486px; padding:3px 8px 0px; float:left;}
+.kstd_b li{float:left; width:160px; line-height:24px;}
+.kstd_b li a{color:#ff6000; font-weight:bold;}
+.kstd_c{background:url(../images/kstd_c.gif) no-repeat; width:502px; height:8px; float:left;}
